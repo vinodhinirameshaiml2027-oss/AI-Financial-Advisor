@@ -33,20 +33,20 @@ external APIs, no API keys, and no internet connection required.
 
 ## Features
 
-- 🏠 **Dashboard** — income, expenses, savings, savings rate, debt, and health score at a glance
-- 👤 **Financial Profile** — input form with validation for income, expenses, goals, and risk tolerance
-- 📤 **CSV Upload** — upload your own transaction history with automatic cleaning and error handling
-- 📊 **Expense Analysis** — category breakdown, monthly trends, essential vs discretionary spending
-- 🤖 **ML Expense Prediction** — trains and compares Linear Regression, Random Forest, and Gradient
+- **Dashboard** — income, expenses, savings, savings rate, debt, and health score at a glance
+- **Financial Profile** — input form with validation for income, expenses, goals, and risk tolerance
+- **CSV Upload** — upload your own transaction history with automatic cleaning and error handling
+- **Expense Analysis** — category breakdown, monthly trends, essential vs discretionary spending
+- **ML Expense Prediction** — trains and compares Linear Regression, Random Forest, and Gradient
   Boosting models on your own data, with a safe statistical fallback for small datasets
-- 📈 **Savings Forecast** — 3/6/12/24/36-month projections with an optional historical growth trend
-- 🎯 **Goal Planner** — months-to-goal calculator, completion date estimate, and reverse "required
+- **Savings Forecast** — 3/6/12/24/36-month projections with an optional historical growth trend
+- **Goal Planner** — months-to-goal calculator, completion date estimate, and reverse "required
   monthly contribution" calculator
-- ⚖️ **Risk Profiling** — a 7-question questionnaire classifying you as LOW / MODERATE / HIGH risk
+- **Risk Profiling** — a 7-question questionnaire classifying you as LOW / MODERATE / HIGH risk
   tolerance (no specific investment recommendations)
-- 💡 **AI Recommendations** — personalized, rule-based recommendations generated from your real numbers
-- 📉 **Interactive Visualizations** — Plotly charts throughout the app
-- 🇮🇳 **Indian Rupee formatting** (₹ with lakh/crore grouping) throughout
+- **AI Recommendations** — personalized, rule-based recommendations generated from your real numbers
+- **Interactive Visualizations** — Plotly charts throughout the app
+- **Indian Rupee formatting** (₹ with lakh/crore grouping) throughout
 
 ---
 
@@ -200,16 +200,16 @@ explore every feature immediately without uploading anything.
 
 ## How to Upload a CSV
 
-1. Go to the **📤 Upload Transactions** page in the sidebar.
+1. Go to the **Upload Transactions** page in the sidebar.
 2. Click **Browse files** and select your `.csv` file.
 3. The app will validate and clean the data automatically, showing any
    warnings (e.g. rows removed due to bad dates or amounts).
 4. Once loaded, every other page (Expense Analysis, ML Predictions, Savings
    Forecast, etc.) automatically uses your uploaded data.
-5. Click **🔄 Reset to Sample Data** at any time to go back to the bundled
+5. Click **Reset to Sample Data** at any time to go back to the bundled
    sample dataset.
 
-You can also click **⬇️ Download Sample CSV** to see exactly what format is
+You can also click **Download Sample CSV** to see exactly what format is
 expected, or use it as a starting template.
 
 ---
